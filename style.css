@@ -3,8 +3,6 @@ padding: 0;
 margin: 0;
 
 }
-
-
 .fist{
     height: 700px;
     width: 100%;
@@ -14,11 +12,6 @@ margin: 0;
     display: flex;
 flex-direction: column;
     align-items: end;
-
-    
-    
-
-
    
 }
 .info{
@@ -27,21 +20,15 @@ height: 400px;
 width: 400px;
 background-color: red;
 border-radius: 10px;
-
-
-
-
 }
 .card{
     height:250px ;
     width: 100%;
-   
     margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-   
+    align-self: center;
 }
 .card-fist{
     height:280px;
@@ -50,17 +37,15 @@ border-radius: 10px;
     border-radius: 10px;
     margin-left: 10px;
 }
-
-
 .img-fist{
     height:120px;
     width: 100px;
     padding: 22px;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     border-radius: 25px;
-    
-    
 }
 .card-fist h1{
     text-align: center;
@@ -71,11 +56,9 @@ height: 30px;
 width:90px ;
 margin: 28px;
 border-radius: 10px;
-
-
 }
 .text{
-    align-items: center;
+    text-align: center;
       padding: 10px;
 }
 
